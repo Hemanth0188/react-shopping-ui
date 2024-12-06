@@ -1,0 +1,191 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+
+
+
+
+ .headerSection{
+  display: flex;
+  justify-content: space-between;
+  padding: 2px ;
+  border: 2px solid black;
+  background-color: rgb(49, 15, 240);
+
+ }
+
+ .center ul li{
+  list-style: none;
+  display: inline-flex;
+  margin: 0px 10px;
+
+ }
+
+ .title{
+  font-size: 1rem;
+ }
+
+ .left{
+  flex: 4;
+  /* border: 1px solid black; */
+ }
+ .center{
+  flex: 4;
+  /* border: 1px solid black; */
+ }
+.search{
+  flex: 4;
+  /* border: 1px solid black; */
+  
+}
+.right{
+  flex: 2;
+  /* border: 1px solid black; */
+  justify-content: space-between;
+  display: flex;
+  padding: 0px 10px;
+}
+
+.bannerbox  img{
+  text-align: center;  /* Centers the image horizontally */
+  margin: 10px 0px;
+  width: 100%;
+  height: 50%;
+}
+
+.centered-image {
+  width: 1000px;        /* Set your desired image width */
+}
+
+.bannerbox{
+  margin: 10px 0px;
+}
+
+/* Main container styling */
+.collectionSection {
+  text-align: center; /* Center the content */
+  padding: 20px;
+  background-color: #f9f9f9; /* Light background for contrast */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  margin: 20px auto;
+  max-width: 1200px; /* Restrict width for large screens */
+}
+
+/* Title styling */
+.collectionSection h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333; /* Dark text color for readability */
+  font-weight: bold;
+  width: 100%;
+}
+
+/* Image container */
+.menImages {
+  display: flex; /* Flexbox for alignment */
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  justify-content: center; /* Center-align the images */
+  gap: 15px; /* Space between images */
+}
+
+/* Image styling */
+.menImages img {
+  width: 150px; /* Fixed width for uniformity */
+  height: 150px; /* Fixed height */
+  object-fit: cover; /* Crop to maintain aspect ratio */
+  border-radius: 10px; /* Rounded corners for images */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth animation */
+}
+
+/* Hover effect for images */
+.menImages img:hover {
+  transform: scale(1.1); /* Slight zoom on hover */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Increase shadow intensity */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .menImages img {
+    width: 120px; /* Smaller size for smaller screens */
+    height: 120px;
+  }
+}
+
+@media (max-width: 480px) {
+  .menImages img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+
+
+/* Main container styling */
+.femalecollectionSection {
+  text-align: center; /* Center the content */
+  padding: 20px;
+  background-color: #f9f9f9; /* Light background for contrast */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  margin: 20px auto;
+  max-width: 1200px; /* Restrict width for large screens */
+}
+
+/* Title styling */
+.femalecollectionSection h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333; /* Dark text color for readability */
+  font-weight: bold;
+}
+
+/* Image container */
+.ladiesIamges {
+  display: flex; /* Flexbox for alignment */
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  justify-content: center; /* Center-align the images */
+  gap: 15px; /* Space between images */
+}
+
+/* Image styling */
+.ladiesIamges img {
+  width: 150px; /* Fixed width for uniformity */
+  height: 150px; /* Fixed height */
+  object-fit: cover; /* Crop to maintain aspect ratio */
+  border-radius: 10px; /* Rounded corners for images */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth animation */
+}
+
+/* Hover effect for images */
+.ladiesIamges img:hover {
+  transform: scale(1.1); /* Slight zoom on hover */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Increase shadow intensity */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .ladiesIamges img {
+    width: 120px; /* Smaller size for smaller screens */
+    height: 120px;
+  }
+}
+
+@media (max-width: 480px) {
+  .ladiesIamges img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+
+
+
+
+
